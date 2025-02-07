@@ -6,6 +6,12 @@ global using System.Threading.Tasks;
 
 global using MyApp.View;
 global using MyApp.ViewModel;
+global using MyApp.Model;
 
 global using CommunityToolkit.Mvvm;
 global using CommunityToolkit.Maui;
+
+public class Globals
+{
+    public static List<StrangeAnimal> MyStrangeAnimals = new();
+}

@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
+using System.Xml;
 
 namespace MyApp
 {
@@ -23,7 +24,10 @@ namespace MyApp
 
             builder.Services.AddSingleton<MainView>();
             builder.Services.AddSingleton<MainViewModel>();
-            
+
+            builder.Services.AddTransient<DetailsView>();
+            builder.Services.AddTransient<DetailsViewModel>();
+
             return builder.Build();
         }
     }
