@@ -9,5 +9,10 @@ public partial class MainView : ContentPage
 		InitializeComponent();
 		BindingContext=viewModel;
 	}
-
+	protected override void OnNavigatedTo(NavigatedToEventArgs args)
+	{
+		BindingContext = null;
+		viewModel.RefreshPage();    // Réinitialise la observablecollection
+		BindingContext = viewModel;
+	}
 }

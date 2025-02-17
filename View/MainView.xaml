@@ -5,56 +5,63 @@
              xmlns:model="clr-namespace:MyApp.Model"             
              x:Class="MyApp.View.MainView"
              Title="MainView">
-    <VerticalStackLayout>
-        <Label 
-            Text="{Binding MyVar}"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-        
-        <Button
-            Text="Change Label"
-            Command="{Binding ChangeBindedLabelCommand}"/>
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+         Text="{Binding MyVar}"
+         VerticalOptions="Center" 
+         HorizontalOptions="Center" />
 
-        <CollectionView ItemsSource="{Binding MyObservableList}"
-                SelectionMode="None">
-            <CollectionView.ItemTemplate>
-                <DataTemplate  x:DataType="model:StrangeAnimal">
-                    <Border     StrokeThickness="4"
-                                StrokeShape="RoundRectangle 10,10,10,10"
-                                Padding="10">
-                        <Grid HeightRequest="100" ColumnDefinitions="0.5*,*">
-                            <ImageButton  Grid.Column="0"
-                                    Source="{Binding Picture}"
-                                    HorizontalOptions="Start"
-                                    Aspect="AspectFit"
-                                    HeightRequest="100"
-                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToDetailsCommand}"
-                                    CommandParameter="{Binding Id}">
-                            </ImageButton>
-                            <VerticalStackLayout Grid.Column="1">
-                                <Label  Text="{Binding Path=Id,StringFormat='ID: {0:S2}'}"
-                                        Style="{StaticResource SubHeadline}"
-                                        FontSize="15"
-                                        HorizontalOptions="Start"
-                                        VerticalOptions="Center"/>
-                                <Label  Text="{Binding Path=Name,StringFormat='Name: {0:S10}'}"
-                                        Style="{StaticResource SubHeadline}"
-                                        FontSize="15"
-                                        HorizontalOptions="Start"
-                                        VerticalOptions="Center"/>
-                                <Label  Text="{Binding Path=Description,StringFormat='Description: {0:S10}'}"
-                                        Style="{StaticResource SubHeadline}"
-                                        FontSize="15"
-                                        HorizontalOptions="Start"
-                                        VerticalOptions="Center"/>
-                            </VerticalStackLayout>
-                        </Grid>
-                    </Border>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>            
-        </CollectionView>
+            <Button
+         Text="Change Label"
+         Command="{Binding ChangeBindedLabelCommand}"
+         IsEnabled="{Binding IsNotBusy}"/>
 
-
-
-    </VerticalStackLayout>
+            <CollectionView ItemsSource="{Binding MyObservableList}"
+             SelectionMode="None">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout    Orientation="Vertical"
+                                        Span="2"  
+                                        HorizontalItemSpacing="10"
+                                        VerticalItemSpacing="10" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate  x:DataType="model:StrangeAnimal">
+                        <Border     StrokeThickness="4"
+                             StrokeShape="RoundRectangle 10,10,10,10"
+                             Padding="10">
+                            <Grid HeightRequest="100" ColumnDefinitions="0.5*,*">
+                                <ImageButton  Grid.Column="0"
+                                 Source="{Binding Picture}"
+                                 HorizontalOptions="Start"
+                                 Aspect="AspectFit"
+                                 HeightRequest="100"
+                                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToDetailsCommand}"
+                                 CommandParameter="{Binding Id}"
+                                 IsEnabled="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=IsNotBusy}">
+                                </ImageButton>
+                                <VerticalStackLayout Grid.Column="1">
+                                    <Label  Text="{Binding Path=Id,StringFormat='ID: {0:S2}'}"
+                                     Style="{StaticResource SubHeadline}"
+                                     FontSize="15"
+                                     HorizontalOptions="Start"
+                                     VerticalOptions="Center"/>
+                                    <Label  Text="{Binding Path=Name,StringFormat='Name: {0:S10}'}"
+                                     Style="{StaticResource SubHeadline}"
+                                     FontSize="15"
+                                     HorizontalOptions="Start"
+                                     VerticalOptions="Center"/>
+                                    <Label  Text="{Binding Path=Description,StringFormat='Description: {0:S10}'}"
+                                     Style="{StaticResource SubHeadline}"
+                                     FontSize="15"
+                                     HorizontalOptions="Start"
+                                     VerticalOptions="Center"/>
+                                </VerticalStackLayout>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>   
 </ContentPage>

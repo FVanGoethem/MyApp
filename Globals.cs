@@ -9,6 +9,7 @@ global using MyApp.ViewModel;
 global using MyApp.Model;
 
 global using CommunityToolkit.Mvvm;
+global using CommunityToolkit.Mvvm.ComponentModel;
 global using CommunityToolkit.Maui;
 
 public class Globals

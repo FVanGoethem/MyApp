@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MyApp.ViewModel;
 
-public partial class MainViewModel: ObservableObject
+public partial class MainViewModel: BaseViewModel
 {
     [ObservableProperty]
     private string myVar = "Blabla";
@@ -63,11 +63,57 @@ public partial class MainViewModel: ObservableObject
     [RelayCommand]
     internal void ChangeBindedLabel()
     {
+        IsBusy = true;
+
+        int id = 0;
+
+        foreach(var item in Globals.MyStrangeAnimals)
+        {
+            int buffer = Convert.ToInt32(item.Id);
+            if (buffer >= id) id = ++buffer; 
+        }
+
         MyVar += "blabla";
+
+        StrangeAnimal scorpion = new StrangeAnimal()
+        {
+            Id = id.ToString(),
+            Name = "Pandinus",
+            Description = "noir",
+            Picture = "scorpion.jpg"
+        };
+
+        Globals.MyStrangeAnimals.Add(scorpion);
+
+        MyObservableList.Clear();
+
+        foreach (var item in Globals.MyStrangeAnimals)
+        {
+            MyObservableList.Add(item);
+        }
+
+        IsBusy = false;
     }
     [RelayCommand]
     internal async Task GoToDetails(string id)
     {
-        await Shell.Current.GoToAsync("DetailsView", true);
+        IsBusy = true;
+
+        await Shell.Current.GoToAsync("DetailsView", true, new Dictionary<string,object>
+        {
+            {"selectedAnimal",id}
+        });
+
+        IsBusy = false;
+    }
+
+    internal void RefreshPage()
+    {
+        MyObservableList.Clear ();
+
+        foreach (var item in Globals.MyStrangeAnimals)
+        {
+            MyObservableList.Add(item);
+        }
     }
 }
