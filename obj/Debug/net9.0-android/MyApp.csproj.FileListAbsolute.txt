@@ -122,3 +122,15 @@ C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-android\MyApp.Assem
 C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-android\MyApp.AssemblyInfo.cs
 C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-android\MyApp.csproj.CoreCompileInputs.cache
 C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-android\MyApp.sourcelink.json
+C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-android\lp\99\jl\files.cache
+C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-android\lp\107\jl\files.cache
+C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-android\lp\110\jl\files.cache
+C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-android\lp\117\jl\files.cache
+C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-android\lp\119\jl\files.cache
+C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-android\lp\126\jl\files.cache
+C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-android\lp\130\jl\files.cache
+C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-android\lp\136\jl\files.cache
+C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-android\lp\151\jl\files.cache
+C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-android\lp\160\jl\files.cache
+C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-android\lp\164\jl\files.cache
+C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-android\lp\165\jl\files.cache

@@ -11,8 +11,10 @@ public partial class MainView : ContentPage
 	}
 	protected override void OnNavigatedTo(NavigatedToEventArgs args)
 	{
-		BindingContext = null;
-		viewModel.RefreshPage();    // Réinitialise la observablecollection
+        base.OnNavigatedTo(args);
+
+        BindingContext = null;
+		viewModel.RefreshPage();    
 		BindingContext = viewModel;
 	}
 }

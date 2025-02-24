@@ -346,6 +346,9 @@
     <AppxPackagedFile Include="C:\Users\fredv\.nuget\packages\microsoft.windowsappsdk\1.6.250108002\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fredv\.nuget\packages\system.io.ports\9.0.2\runtimes\win\lib\net9.0\System.IO.Ports.dll">
+      <PackagePath>System.IO.Ports.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fredv\.nuget\packages\system.speech\9.0.0\runtimes\win\lib\net9.0\System.Speech.dll">
       <PackagePath>System.Speech.dll</PackagePath>
     </AppxPackagedFile>

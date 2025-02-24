@@ -4,7 +4,7 @@ namespace MyApp.View;
 
 public partial class DetailsView : ContentPage
 {
-	DetailsViewModel viewModel;
+    readonly DetailsViewModel viewModel;
 	public DetailsView(DetailsViewModel viewModel)
 	{
 		this.viewModel = viewModel;
@@ -14,9 +14,16 @@ public partial class DetailsView : ContentPage
 
     protected override void OnNavigatedTo(NavigatedToEventArgs args)
     {
+        base.OnNavigatedTo(args);
+
         BindingContext = null;
         viewModel.RefreshPage();    // Réinitialise la observablecollection
         BindingContext = viewModel;
+    }
+    protected override void OnDisappearing()
+    {
+        base.OnDisappearing();
+        viewModel.ClosePage();
     }
 
     private async void MyAnimatedButton_Clicked(object sender, EventArgs e)

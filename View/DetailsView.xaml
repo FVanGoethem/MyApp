@@ -3,8 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewmodel="clr-namespace:MyApp.ViewModel"
              xmlns:model="clr-namespace:MyApp.Model" 
-             x:Class="MyApp.View.DetailsView"
+             x:Class="MyApp.View.DetailsView"             
+             x:DataType="viewmodel:DetailsViewModel"
              Title="DetailsView">
+    
     <VerticalStackLayout>
         <Grid ColumnDefinitions="0.1*,0.3*,*" RowDefinitions="*,*,*,*,*" Padding="20" RowSpacing="20">
             <Label  Grid.Column="0" Grid.Row="0" Text="Id:" VerticalOptions="Center"/>
@@ -39,8 +41,13 @@
                     Text="Valider"
                     Command="{Binding ChangeObjectParametersCommand}"
                     Clicked="MyAnimatedButton_Clicked"
-                    IsEnabled="{Binding IsNotBusy}"/>
+                    IsEnabled="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:BaseViewModel}}, Path= IsNotBusy}"/>
+            
         </Grid>
+        <HorizontalStackLayout Spacing="20">
+            <Label Text="Serial Data: "></Label>
+            <Label Text="{Binding SerialBufferContent}" TextColor="Red"></Label>
+        </HorizontalStackLayout>
 
     </VerticalStackLayout>
 </ContentPage>

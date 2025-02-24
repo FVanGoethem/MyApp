@@ -4,18 +4,19 @@
              xmlns:viewmodel="clr-namespace:MyApp.ViewModel"
              xmlns:model="clr-namespace:MyApp.Model"             
              x:Class="MyApp.View.MainView"
+             x:DataType="viewmodel:MainViewModel"
              Title="MainView">
     <ScrollView>
-        <VerticalStackLayout>
-            <Label 
-         Text="{Binding MyVar}"
-         VerticalOptions="Center" 
-         HorizontalOptions="Center" />
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <Button WidthRequest="150"
+                    Text="Save JSON"
+                    Command="{Binding SaveJSONCommand}"
+                    IsEnabled="{Binding IsNotBusy}"/>
 
-            <Button
-         Text="Change Label"
-         Command="{Binding ChangeBindedLabelCommand}"
-         IsEnabled="{Binding IsNotBusy}"/>
+            <Button WidthRequest="150"
+                    Text="Load JSON Label"
+                    Command="{Binding LoadJSONCommand}"
+                    IsEnabled="{Binding IsNotBusy}"/>
 
             <CollectionView ItemsSource="{Binding MyObservableList}"
              SelectionMode="None">

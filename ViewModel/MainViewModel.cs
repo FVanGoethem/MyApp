@@ -9,91 +9,10 @@ using System.Threading.Tasks;
 
 namespace MyApp.ViewModel;
 
-public partial class MainViewModel: BaseViewModel
+public partial class MainViewModel(JSONServices MyJSONService) : BaseViewModel
 {
-    [ObservableProperty]
-    private string myVar = "Blabla";
+    public ObservableCollection<StrangeAnimal> MyObservableList { get; } = [];
 
-    public ObservableCollection<StrangeAnimal> MyObservableList { get; } = new();
-    public MainViewModel()
-    {
-        StrangeAnimal Mygale = new StrangeAnimal()
-        {
-            Id="0",
-            Name="Miguel", 
-            Description="Belle",
-            Picture="myg.jpg" 
-        };
-
-        StrangeAnimal boa = new StrangeAnimal()
-        {
-            Id = "1",
-            Name = "aaa",
-            Description = "brun",
-            Picture = "boa.jpg"
-        };
-
-        StrangeAnimal cobra = new StrangeAnimal()
-        {
-            Id = "2",
-            Name = "Cob",
-            Description = "Venimeux",
-            Picture = "cobra.jpg"
-        };
-
-        StrangeAnimal scorpion = new StrangeAnimal()
-        {
-            Id = "3",
-            Name = "Pandinus",
-            Description = "noir",
-            Picture = "scorpion.jpg"
-        };
-
-        Globals.MyStrangeAnimals.Add(Mygale);
-        Globals.MyStrangeAnimals.Add(boa);
-        Globals.MyStrangeAnimals.Add(cobra);
-        Globals.MyStrangeAnimals.Add(scorpion);
-
-        foreach (var item in Globals.MyStrangeAnimals)
-        {
-            MyObservableList.Add(item);
-        }       
-    }
-
-    [RelayCommand]
-    internal void ChangeBindedLabel()
-    {
-        IsBusy = true;
-
-        int id = 0;
-
-        foreach(var item in Globals.MyStrangeAnimals)
-        {
-            int buffer = Convert.ToInt32(item.Id);
-            if (buffer >= id) id = ++buffer; 
-        }
-
-        MyVar += "blabla";
-
-        StrangeAnimal scorpion = new StrangeAnimal()
-        {
-            Id = id.ToString(),
-            Name = "Pandinus",
-            Description = "noir",
-            Picture = "scorpion.jpg"
-        };
-
-        Globals.MyStrangeAnimals.Add(scorpion);
-
-        MyObservableList.Clear();
-
-        foreach (var item in Globals.MyStrangeAnimals)
-        {
-            MyObservableList.Add(item);
-        }
-
-        IsBusy = false;
-    }
     [RelayCommand]
     internal async Task GoToDetails(string id)
     {
@@ -103,6 +22,31 @@ public partial class MainViewModel: BaseViewModel
         {
             {"selectedAnimal",id}
         });
+
+        IsBusy = false;
+    }
+    [RelayCommand]
+    internal async Task SaveJSON()
+    {
+        IsBusy = true;
+
+        await MyJSONService.SetStrangeAnimals();
+    
+        IsBusy = false;
+    }
+    [RelayCommand]
+    internal async Task LoadJSON()
+    {
+        IsBusy = true;
+
+        Globals.MyStrangeAnimals = await MyJSONService.GetStrangeAnimals();
+
+        MyObservableList.Clear();
+
+        foreach (var item in Globals.MyStrangeAnimals)
+        {
+            MyObservableList.Add(item);
+        }
 
         IsBusy = false;
     }

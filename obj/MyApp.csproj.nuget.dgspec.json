@@ -92,6 +92,10 @@
               "target": "Package",
               "version": "[9.0.2, )",
               "autoReferenced": true
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[9.0.2, )"
             }
           },
           "imports": [
@@ -143,6 +147,10 @@
               "target": "Package",
               "version": "[9.0.2, )",
               "autoReferenced": true
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[9.0.2, )"
             }
           },
           "imports": [
@@ -194,6 +202,10 @@
               "target": "Package",
               "version": "[9.0.2, )",
               "autoReferenced": true
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[9.0.2, )"
             }
           },
           "imports": [
@@ -240,6 +252,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[9.0.40, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[9.0.2, )"
             }
           },
           "imports": [

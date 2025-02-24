@@ -28,6 +28,9 @@ namespace MyApp
             builder.Services.AddTransient<DetailsView>();
             builder.Services.AddTransient<DetailsViewModel>();
 
+            builder.Services.AddSingleton<DeviceOrientationService>();
+            builder.Services.AddSingleton<JSONServices>();
+
             return builder.Build();
         }
     }
