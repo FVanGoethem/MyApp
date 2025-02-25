@@ -4,11 +4,13 @@ using System.IO.Ports;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Management;
 
 namespace MyApp.Service;
 public partial class DeviceOrientationService
 {
     SerialPort? mySerialPort;
+    string portDetected = null;
     public partial void OpenPort()
     {
         if(mySerialPort != null)
@@ -28,27 +30,49 @@ public partial class DeviceOrientationService
             }
         }else
         {
-            mySerialPort = new SerialPort
-            {
-                BaudRate = 9600,
-                PortName = "COM3",
-                Parity = Parity.None,
-                DataBits = 8,
-                StopBits = StopBits.One,
-                ReadTimeout = 10000,
-                WriteTimeout = 10000                
-            };
+            ManagementObjectSearcher searcher = new ManagementObjectSearcher("SELECT * FROM Win32_PnPEntity WHERE Name LIKE '%(COM%'");
 
-            mySerialPort.DataReceived += new SerialDataReceivedEventHandler(DataHandler);
+            foreach (ManagementObject queryObj in searcher.Get())
+            {
+                string nom = queryObj["Name"]?.ToString() ?? "";
 
-            try
-            {
-                mySerialPort.Open();
+                if (nom.Contains("CH340"))
+                {
+                    int debut = nom.LastIndexOf("COM");
+                    int fin = nom.LastIndexOf(")");
+
+                    if (debut != -1 && fin != -1)
+                    {
+                        portDetected = nom.Substring(debut, fin - debut);
+                        break;
+                    }
+                }
             }
-            catch (Exception ex)
+
+            if(portDetected != null)
             {
-                Shell.Current.DisplayAlert("Error!", ex.ToString(), "OK");
-            }
+                mySerialPort = new SerialPort
+                {
+                    BaudRate = 9600,
+                    PortName = portDetected,
+                    Parity = Parity.None,
+                    DataBits = 8,
+                    StopBits = StopBits.One,
+                    ReadTimeout = 10000,
+                    WriteTimeout = 10000
+                };
+
+                mySerialPort.DataReceived += new SerialDataReceivedEventHandler(DataHandler);
+
+                try
+                {
+                    mySerialPort.Open();
+                }
+                catch (Exception ex)
+                {
+                    Shell.Current.DisplayAlert("Error!", ex.ToString(), "OK");
+                }
+            }                      
         }            
     }
 

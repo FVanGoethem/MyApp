@@ -15,6 +15,7 @@
           "Microsoft.Maui.Controls": "9.0.40",
           "Microsoft.Maui.Controls.Compatibility": "9.0.40",
           "System.IO.Ports": "9.0.2",
+          "System.Management": "10.0.0-preview.1.25080.5",
           "Microsoft.Web.WebView2.Core.Projection": "1.0.2792.45",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.57"
         },
@@ -528,6 +529,14 @@
       },
       "runtime.osx-arm64.runtime.native.System.IO.Ports/9.0.2": {},
       "runtime.osx-x64.runtime.native.System.IO.Ports/9.0.2": {},
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.8005"
+          }
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "dependencies": {
           "runtime.native.System.IO.Ports": "9.0.2"
@@ -536,6 +545,17 @@
           "runtimes/win/lib/net9.0/System.IO.Ports.dll": {
             "assemblyVersion": "9.0.0.2",
             "fileVersion": "9.0.225.6610"
+          }
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "runtime": {
+          "runtimes/win/lib/net9.0/System.Management.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.8005"
           }
         }
       },
@@ -876,12 +896,26 @@
       "path": "runtime.osx-x64.runtime.native.system.io.ports/9.0.2",
       "hashPath": "runtime.osx-x64.runtime.native.system.io.ports.9.0.2.nupkg.sha512"
     },
+    "System.CodeDom/10.0.0-preview.1.25080.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-73fcla4sj2CYSsshJ4lMxqltxgK7zEHYFRQ4lsttkTI/NCeIyG42wO9H0Quhrvjd1i95f3RGe5lJNVma14vqZQ==",
+      "path": "system.codedom/10.0.0-preview.1.25080.5",
+      "hashPath": "system.codedom.10.0.0-preview.1.25080.5.nupkg.sha512"
+    },
     "System.IO.Ports/9.0.2": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-8s2COaRyV3om826x0rd2Y5bzpLWmS5KHAIUpG3BWYKxFmdLWM2UTOWzp6/x9rGutbJbfFra8QLfhar4kR/7Ygg==",
       "path": "system.io.ports/9.0.2",
       "hashPath": "system.io.ports.9.0.2.nupkg.sha512"
+    },
+    "System.Management/10.0.0-preview.1.25080.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-woNcGYbbcFx8VZBhtOr26stFG2Xk0i1QwgZYnItc0AcnuvPDpt4Vd7zTh4ZEFh+mnW7kFARxMoAikAe6QqNzvw==",
+      "path": "system.management/10.0.0-preview.1.25080.5",
+      "hashPath": "system.management.10.0.0-preview.1.25080.5.nupkg.sha512"
     },
     "System.Speech/9.0.0": {
       "type": "package",

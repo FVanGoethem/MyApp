@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FTG6yPDwmVk=",
+  "dgSpecHash": "2eroIBHmQF0=",
   "success": true,
   "projectFilePath": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\MyApp.csproj",
   "expectedPackageFiles": [
@@ -50,7 +50,9 @@
     "C:\\Users\\fredv\\.nuget\\packages\\runtime.native.system.io.ports\\9.0.2\\runtime.native.system.io.ports.9.0.2.nupkg.sha512",
     "C:\\Users\\fredv\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\9.0.2\\runtime.osx-arm64.runtime.native.system.io.ports.9.0.2.nupkg.sha512",
     "C:\\Users\\fredv\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\9.0.2\\runtime.osx-x64.runtime.native.system.io.ports.9.0.2.nupkg.sha512",
+    "C:\\Users\\fredv\\.nuget\\packages\\system.codedom\\10.0.0-preview.1.25080.5\\system.codedom.10.0.0-preview.1.25080.5.nupkg.sha512",
     "C:\\Users\\fredv\\.nuget\\packages\\system.io.ports\\9.0.2\\system.io.ports.9.0.2.nupkg.sha512",
+    "C:\\Users\\fredv\\.nuget\\packages\\system.management\\10.0.0-preview.1.25080.5\\system.management.10.0.0-preview.1.25080.5.nupkg.sha512",
     "C:\\Users\\fredv\\.nuget\\packages\\system.speech\\9.0.0\\system.speech.9.0.0.nupkg.sha512",
     "C:\\Users\\fredv\\.nuget\\packages\\xamarin.android.glide\\4.16.0.11\\xamarin.android.glide.4.16.0.11.nupkg.sha512",
     "C:\\Users\\fredv\\.nuget\\packages\\xamarin.android.glide.annotations\\4.16.0.11\\xamarin.android.glide.annotations.4.16.0.11.nupkg.sha512",

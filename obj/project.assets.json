@@ -1623,6 +1623,22 @@
           }
         }
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -1647,6 +1663,31 @@
             "rid": "unix"
           },
           "runtimes/win/lib/net9.0/System.IO.Ports.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/System.Management.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -4158,6 +4199,22 @@
           "runtimes/android-arm64/native/_._": {}
         }
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -4170,6 +4227,25 @@
         },
         "runtime": {
           "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -6683,6 +6759,22 @@
           "runtimes/android-x64/native/_._": {}
         }
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -6695,6 +6787,25 @@
         },
         "runtime": {
           "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -9160,6 +9271,22 @@
       "runtime.osx-x64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package"
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -9172,6 +9299,25 @@
         },
         "runtime": {
           "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -11685,6 +11831,22 @@
           "runtimes/maccatalyst-x64/native/_._": {}
         }
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -11697,6 +11859,25 @@
         },
         "runtime": {
           "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -14162,6 +14343,22 @@
       "runtime.osx-x64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package"
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -14174,6 +14371,25 @@
         },
         "runtime": {
           "lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -17668,6 +17884,22 @@
           }
         }
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -17692,6 +17924,31 @@
             "rid": "unix"
           },
           "runtimes/win/lib/net9.0/System.IO.Ports.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/System.Management.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -18285,6 +18542,22 @@
           "runtimes/android-arm64/native/_._": {}
         }
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -18297,6 +18570,25 @@
         },
         "runtime": {
           "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -18892,6 +19184,22 @@
           "runtimes/android-x64/native/_._": {}
         }
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -18904,6 +19212,25 @@
         },
         "runtime": {
           "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -19451,6 +19778,22 @@
       "runtime.osx-x64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package"
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -19463,6 +19806,25 @@
         },
         "runtime": {
           "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -20058,6 +20420,22 @@
           "runtimes/maccatalyst-x64/native/_._": {}
         }
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -20070,6 +20448,25 @@
         },
         "runtime": {
           "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -20617,6 +21014,22 @@
       "runtime.osx-x64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package"
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -20629,6 +21042,25 @@
         },
         "runtime": {
           "lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -22232,6 +22664,22 @@
           }
         }
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -22256,6 +22704,31 @@
             "rid": "unix"
           },
           "runtimes/win/lib/net9.0/System.IO.Ports.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/System.Management.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -22849,6 +23322,22 @@
           "runtimes/android-arm64/native/_._": {}
         }
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -22861,6 +23350,25 @@
         },
         "runtime": {
           "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -23456,6 +23964,22 @@
           "runtimes/android-x64/native/_._": {}
         }
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -23468,6 +23992,25 @@
         },
         "runtime": {
           "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -24015,6 +24558,22 @@
       "runtime.osx-x64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package"
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -24027,6 +24586,25 @@
         },
         "runtime": {
           "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -24622,6 +25200,22 @@
           "runtimes/maccatalyst-x64/native/_._": {}
         }
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -24634,6 +25228,25 @@
         },
         "runtime": {
           "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -25181,6 +25794,22 @@
       "runtime.osx-x64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package"
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -25193,6 +25822,25 @@
         },
         "runtime": {
           "lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -27007,6 +27655,22 @@
           }
         }
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -27031,6 +27695,31 @@
             "rid": "unix"
           },
           "runtimes/win/lib/net9.0/System.IO.Ports.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/System.Management.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -27815,6 +28504,22 @@
           "runtimes/android-arm64/native/_._": {}
         }
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -27827,6 +28532,25 @@
         },
         "runtime": {
           "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -28607,6 +29331,22 @@
           "runtimes/android-x64/native/_._": {}
         }
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -28619,6 +29359,25 @@
         },
         "runtime": {
           "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -29351,6 +30110,22 @@
       "runtime.osx-x64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package"
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -29363,6 +30138,25 @@
         },
         "runtime": {
           "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -30143,6 +30937,22 @@
           "runtimes/maccatalyst-x64/native/_._": {}
         }
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -30155,6 +30965,25 @@
         },
         "runtime": {
           "runtimes/unix/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -30896,6 +31725,22 @@
       "runtime.osx-x64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package"
       },
+      "System.CodeDom/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.IO.Ports/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -30908,6 +31753,25 @@
         },
         "runtime": {
           "runtimes/win/lib/net9.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Management/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.0-preview.1.25080.5"
+        },
+        "compile": {
+          "lib/net9.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net9.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -33527,6 +34391,36 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.CodeDom/10.0.0-preview.1.25080.5": {
+      "sha512": "73fcla4sj2CYSsshJ4lMxqltxgK7zEHYFRQ4lsttkTI/NCeIyG42wO9H0Quhrvjd1i95f3RGe5lJNVma14vqZQ==",
+      "type": "package",
+      "path": "system.codedom/10.0.0-preview.1.25080.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.CodeDom.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
+        "lib/net10.0/System.CodeDom.dll",
+        "lib/net10.0/System.CodeDom.xml",
+        "lib/net462/System.CodeDom.dll",
+        "lib/net462/System.CodeDom.xml",
+        "lib/net8.0/System.CodeDom.dll",
+        "lib/net8.0/System.CodeDom.xml",
+        "lib/net9.0/System.CodeDom.dll",
+        "lib/net9.0/System.CodeDom.xml",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.10.0.0-preview.1.25080.5.nupkg.sha512",
+        "system.codedom.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.IO.Ports/9.0.2": {
       "sha512": "8s2COaRyV3om826x0rd2Y5bzpLWmS5KHAIUpG3BWYKxFmdLWM2UTOWzp6/x9rGutbJbfFra8QLfhar4kR/7Ygg==",
       "type": "package",
@@ -33560,6 +34454,39 @@
         "runtimes/win/lib/net9.0/System.IO.Ports.xml",
         "system.io.ports.9.0.2.nupkg.sha512",
         "system.io.ports.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Management/10.0.0-preview.1.25080.5": {
+      "sha512": "woNcGYbbcFx8VZBhtOr26stFG2Xk0i1QwgZYnItc0AcnuvPDpt4Vd7zTh4ZEFh+mnW7kFARxMoAikAe6QqNzvw==",
+      "type": "package",
+      "path": "system.management/10.0.0-preview.1.25080.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Management.targets",
+        "lib/net10.0/System.Management.dll",
+        "lib/net10.0/System.Management.xml",
+        "lib/net462/_._",
+        "lib/net8.0/System.Management.dll",
+        "lib/net8.0/System.Management.xml",
+        "lib/net9.0/System.Management.dll",
+        "lib/net9.0/System.Management.xml",
+        "lib/netstandard2.0/System.Management.dll",
+        "lib/netstandard2.0/System.Management.xml",
+        "runtimes/win/lib/net10.0/System.Management.dll",
+        "runtimes/win/lib/net10.0/System.Management.xml",
+        "runtimes/win/lib/net8.0/System.Management.dll",
+        "runtimes/win/lib/net8.0/System.Management.xml",
+        "runtimes/win/lib/net9.0/System.Management.dll",
+        "runtimes/win/lib/net9.0/System.Management.xml",
+        "system.management.10.0.0-preview.1.25080.5.nupkg.sha512",
+        "system.management.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -35653,7 +36580,8 @@
       "Microsoft.Maui.Controls >= 9.0.40",
       "Microsoft.Maui.Controls.Compatibility >= 9.0.40",
       "Microsoft.NET.ILLink.Tasks >= 9.0.2",
-      "System.IO.Ports >= 9.0.2"
+      "System.IO.Ports >= 9.0.2",
+      "System.Management >= 10.0.0-preview.1.25080.5"
     ],
     "net9.0-ios18.2": [
       "CommunityToolkit.Maui >= 11.1.0",
@@ -35662,7 +36590,8 @@
       "Microsoft.Maui.Controls >= 9.0.40",
       "Microsoft.Maui.Controls.Compatibility >= 9.0.40",
       "Microsoft.NET.ILLink.Tasks >= 9.0.2",
-      "System.IO.Ports >= 9.0.2"
+      "System.IO.Ports >= 9.0.2",
+      "System.Management >= 10.0.0-preview.1.25080.5"
     ],
     "net9.0-maccatalyst18.2": [
       "CommunityToolkit.Maui >= 11.1.0",
@@ -35671,7 +36600,8 @@
       "Microsoft.Maui.Controls >= 9.0.40",
       "Microsoft.Maui.Controls.Compatibility >= 9.0.40",
       "Microsoft.NET.ILLink.Tasks >= 9.0.2",
-      "System.IO.Ports >= 9.0.2"
+      "System.IO.Ports >= 9.0.2",
+      "System.Management >= 10.0.0-preview.1.25080.5"
     ],
     "net9.0-windows10.0.19041": [
       "CommunityToolkit.Maui >= 11.1.0",
@@ -35679,7 +36609,8 @@
       "Microsoft.Extensions.Logging.Debug >= 9.0.2",
       "Microsoft.Maui.Controls >= 9.0.40",
       "Microsoft.Maui.Controls.Compatibility >= 9.0.40",
-      "System.IO.Ports >= 9.0.2"
+      "System.IO.Ports >= 9.0.2",
+      "System.Management >= 10.0.0-preview.1.25080.5"
     ]
   },
   "packageFolders": {
@@ -35778,6 +36709,10 @@
           "System.IO.Ports": {
             "target": "Package",
             "version": "[9.0.2, )"
+          },
+          "System.Management": {
+            "target": "Package",
+            "version": "[10.0.0-preview.1.25080.5, )"
           }
         },
         "imports": [
@@ -35833,6 +36768,10 @@
           "System.IO.Ports": {
             "target": "Package",
             "version": "[9.0.2, )"
+          },
+          "System.Management": {
+            "target": "Package",
+            "version": "[10.0.0-preview.1.25080.5, )"
           }
         },
         "imports": [
@@ -35888,6 +36827,10 @@
           "System.IO.Ports": {
             "target": "Package",
             "version": "[9.0.2, )"
+          },
+          "System.Management": {
+            "target": "Package",
+            "version": "[10.0.0-preview.1.25080.5, )"
           }
         },
         "imports": [
@@ -35938,6 +36881,10 @@
           "System.IO.Ports": {
             "target": "Package",
             "version": "[9.0.2, )"
+          },
+          "System.Management": {
+            "target": "Package",
+            "version": "[10.0.0-preview.1.25080.5, )"
           }
         },
         "imports": [

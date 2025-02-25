@@ -192,3 +192,5 @@ C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-windows10.0.19041.0
 C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.IO.Ports.dll
+C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.CodeDom.dll
+C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.Management.dll
