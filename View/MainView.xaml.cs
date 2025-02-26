@@ -9,12 +9,12 @@ public partial class MainView : ContentPage
 		InitializeComponent();
 		BindingContext=viewModel;
 	}
-	protected override void OnNavigatedTo(NavigatedToEventArgs args)
+	protected override async void OnNavigatedTo(NavigatedToEventArgs args)
 	{
         base.OnNavigatedTo(args);
 
         BindingContext = null;
-		viewModel.RefreshPage();    
+		await viewModel.RefreshPage();    
 		BindingContext = viewModel;
 	}
 }

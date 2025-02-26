@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Microsoft.UI.Xaml.Automation;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -9,10 +10,15 @@ using System.Threading.Tasks;
 
 namespace MyApp.ViewModel;
 
-public partial class MainViewModel(JSONServices MyJSONService) : BaseViewModel
+public partial class MainViewModel : BaseViewModel
 {
     public ObservableCollection<StrangeAnimal> MyObservableList { get; } = [];
-
+    JSONServices MyJSONService;
+    public MainViewModel(JSONServices MyJSONService)
+    {
+        this.MyJSONService = MyJSONService;
+    }
+ 
     [RelayCommand]
     internal async Task GoToDetails(string id)
     {
@@ -25,35 +31,11 @@ public partial class MainViewModel(JSONServices MyJSONService) : BaseViewModel
 
         IsBusy = false;
     }
-    [RelayCommand]
-    internal async Task SaveJSON()
-    {
-        IsBusy = true;
-
-        await MyJSONService.SetStrangeAnimals();
-    
-        IsBusy = false;
-    }
-    [RelayCommand]
-    internal async Task LoadJSON()
-    {
-        IsBusy = true;
-
-        Globals.MyStrangeAnimals = await MyJSONService.GetStrangeAnimals();
-
-        MyObservableList.Clear();
-
-        foreach (var item in Globals.MyStrangeAnimals)
-        {
-            MyObservableList.Add(item);
-        }
-
-        IsBusy = false;
-    }
-
-    internal void RefreshPage()
+    internal async Task RefreshPage()
     {
         MyObservableList.Clear ();
+
+        if(Globals.MyStrangeAnimals.Count == 0) Globals.MyStrangeAnimals = await MyJSONService.GetStrangeAnimals();
 
         foreach (var item in Globals.MyStrangeAnimals)
         {

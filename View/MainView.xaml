@@ -4,20 +4,17 @@
              xmlns:viewmodel="clr-namespace:MyApp.ViewModel"
              xmlns:model="clr-namespace:MyApp.Model"             
              x:Class="MyApp.View.MainView"
-             x:DataType="viewmodel:MainViewModel"
-             Title="MainView">
+             x:DataType="viewmodel:MainViewModel">
     <ScrollView>
+     
         <VerticalStackLayout Spacing="20" Padding="20">
-            <Button WidthRequest="150"
-                    Text="Save JSON"
-                    Command="{Binding SaveJSONCommand}"
-                    IsEnabled="{Binding IsNotBusy}"/>
-
-            <Button WidthRequest="150"
-                    Text="Load JSON Label"
-                    Command="{Binding LoadJSONCommand}"
-                    IsEnabled="{Binding IsNotBusy}"/>
-
+            <Button  Grid.Column="0"
+                 HorizontalOptions="Start"
+                 HeightRequest="100"
+                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToDetailsCommand}"
+                 CommandParameter="0"
+                 IsEnabled="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=IsNotBusy}">
+            </Button>
             <CollectionView ItemsSource="{Binding MyObservableList}"
              SelectionMode="None">
                 <CollectionView.ItemsLayout>

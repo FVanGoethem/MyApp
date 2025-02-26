@@ -34,9 +34,10 @@ public partial class DeviceOrientationService
 
             foreach (ManagementObject queryObj in searcher.Get())
             {
+                string id = queryObj["PNPDeviceID"]?.ToString() ?? "";
                 string nom = queryObj["Name"]?.ToString() ?? "";
 
-                if (nom.Contains("CH340"))
+                if (id.Contains("PID_7523"))
                 {
                     int debut = nom.LastIndexOf("COM");
                     int fin = nom.LastIndexOf(")");
@@ -75,7 +76,6 @@ public partial class DeviceOrientationService
             }                      
         }            
     }
-
     public partial void ClosePort()
     {
         if (mySerialPort != null && mySerialPort.IsOpen)

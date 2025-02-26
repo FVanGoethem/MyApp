@@ -20,14 +20,30 @@ public partial class DetailsViewModel: ObservableObject
     public partial string? Picture { get; set; }
     [ObservableProperty]
     public partial string? SerialBufferContent { get; set; }
-
+    [ObservableProperty]
+    public partial bool EmulatorON_OFF { get; set; } = false;
+    
     readonly DeviceOrientationService MyScanner;
+
+    IDispatcherTimer emulator= Application.Current.Dispatcher.CreateTimer();
 
     public DetailsViewModel(DeviceOrientationService myScanner)
     {
         this.MyScanner = myScanner;
         MyScanner.OpenPort();
         myScanner.SerialBuffer.Changed += OnSerialDataReception;
+
+        emulator.Interval = TimeSpan.FromSeconds(1);
+        emulator.Tick += (s, e) => AddCode();
+    }
+    partial void OnEmulatorON_OFFChanged(bool value)
+    {
+        if (value) emulator.Start();
+        else emulator.Stop();
+    }
+    private void AddCode()
+    {
+        MyScanner.SerialBuffer.Enqueue("B");
     }
     private void OnSerialDataReception(object sender, EventArgs arg)
     {
@@ -70,6 +86,6 @@ public partial class DetailsViewModel: ObservableObject
                 item.Description = Description ?? string.Empty;
                 item.Picture = Picture ?? string.Empty;
             }
-        }
+        }        
     }    
 }

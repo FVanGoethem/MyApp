@@ -8,6 +8,13 @@
              Title="DetailsView">
     
     <VerticalStackLayout>
+        <HorizontalStackLayout Padding="10" Spacing="10">
+            <Label Text="Emulator : " VerticalOptions="Center"/>
+            <Switch OnColor="{StaticResource Primary}"
+                    ThumbColor="{StaticResource Primary}" 
+                    IsToggled="{Binding EmulatorON_OFF}"
+                    VerticalOptions="Center"/>
+        </HorizontalStackLayout>
         <Grid ColumnDefinitions="0.1*,0.3*,*" RowDefinitions="*,*,*,*,*" Padding="20" RowSpacing="20">
             <Label  Grid.Column="0" Grid.Row="0" Text="Id:" VerticalOptions="Center"/>
             <Entry  Grid.Column="1" Grid.Row="0"  

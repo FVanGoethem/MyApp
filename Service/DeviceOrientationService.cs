@@ -13,6 +13,7 @@ public partial class DeviceOrientationService
 
     public partial void OpenPort();
     public partial void ClosePort();
+  
     public sealed partial class QueueBuffer : Queue
     {
         public event EventHandler? Changed;
@@ -22,5 +23,4 @@ public partial class DeviceOrientationService
             Changed?.Invoke(this,EventArgs.Empty);
         }    
     }
-
 }
