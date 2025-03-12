@@ -25,7 +25,7 @@ public class JSONServices
         }
         catch (Exception ex) 
         {
-            await Shell.Current.DisplayAlert("JSON load Error!", ex.Message, "OK");
+            
         }
         
         return MyList ?? new List<StrangeAnimal>();
@@ -44,7 +44,7 @@ public class JSONServices
         }
         catch (Exception ex)
         {
-            await Shell.Current.DisplayAlert("JSON save Error!", ex.Message, "OK");
+            
         }
     }
 }
