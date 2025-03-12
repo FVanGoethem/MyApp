@@ -1,12 +1,12 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using Microsoft.UI.Xaml.Automation;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace MyApp.ViewModel;
 
@@ -14,9 +14,11 @@ public partial class MainViewModel : BaseViewModel
 {
     public ObservableCollection<StrangeAnimal> MyObservableList { get; } = [];
     JSONServices MyJSONService;
-    public MainViewModel(JSONServices MyJSONService)
+    CSVServices MyCSVServices;
+    public MainViewModel(JSONServices MyJSONService, CSVServices MyCSVServices)
     {
         this.MyJSONService = MyJSONService;
+        this.MyCSVServices = MyCSVServices;
     }
  
     [RelayCommand]
@@ -31,6 +33,25 @@ public partial class MainViewModel : BaseViewModel
 
         IsBusy = false;
     }
+    [RelayCommand]
+    internal async Task PrintToCSV()
+    {
+        IsBusy = true;
+
+        await MyCSVServices.PrintData(Globals.MyStrangeAnimals);
+
+        IsBusy = false;
+    }
+    [RelayCommand]
+    internal async Task LoadFromCSV()
+    {
+        IsBusy = true;
+
+        Globals.MyStrangeAnimals = await MyCSVServices.LoadData();
+
+        IsBusy = false;
+    }
+    
     internal async Task RefreshPage()
     {
         MyObservableList.Clear ();

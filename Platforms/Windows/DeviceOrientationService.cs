@@ -10,7 +10,7 @@ namespace MyApp.Service;
 public partial class DeviceOrientationService
 {
     SerialPort? mySerialPort;
-    string portDetected = null;
+    string? portDetected = null;
     public partial void OpenPort()
     {
         if(mySerialPort != null)

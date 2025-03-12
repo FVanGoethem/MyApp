@@ -30,6 +30,7 @@ namespace MyApp
 
             builder.Services.AddSingleton<DeviceOrientationService>();
             builder.Services.AddSingleton<JSONServices>();
+            builder.Services.AddSingleton<CSVServices>();
 
             return builder.Build();
         }
