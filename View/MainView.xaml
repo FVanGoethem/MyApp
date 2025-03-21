@@ -33,6 +33,14 @@
                             CommandParameter="0"
                             IsEnabled="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=IsNotBusy}">
                 </Button>
+                <Button     Text="Graph"
+                            Grid.Column="0"
+                            HorizontalOptions="Start"
+                            HeightRequest="50"
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToGraphCommand}"
+                            CommandParameter="0"
+                            IsEnabled="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=IsNotBusy}">
+                </Button>
             </HorizontalStackLayout>
 
             <CollectionView ItemsSource="{Binding MyObservableList}"

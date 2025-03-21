@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Maui;
+using Microcharts.Maui;
 using Microsoft.Extensions.Logging;
 using System.Xml;
 
@@ -12,6 +13,7 @@ namespace MyApp
             builder
                 .UseMauiApp<App>()
                 .UseMauiCommunityToolkit()
+                .UseMicrocharts()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -27,6 +29,9 @@ namespace MyApp
 
             builder.Services.AddTransient<DetailsView>();
             builder.Services.AddTransient<DetailsViewModel>();
+
+            builder.Services.AddTransient<GraphView>();
+            builder.Services.AddTransient<GraphViewModel>();
 
             builder.Services.AddSingleton<DeviceOrientationService>();
             builder.Services.AddSingleton<JSONServices>();

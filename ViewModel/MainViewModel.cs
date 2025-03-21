@@ -15,6 +15,7 @@ public partial class MainViewModel : BaseViewModel
     public ObservableCollection<StrangeAnimal> MyObservableList { get; } = [];
     JSONServices MyJSONService;
     CSVServices MyCSVServices;
+
     public MainViewModel(JSONServices MyJSONService, CSVServices MyCSVServices)
     {
         this.MyJSONService = MyJSONService;
@@ -30,6 +31,15 @@ public partial class MainViewModel : BaseViewModel
         {
             {"selectedAnimal",id}
         });
+
+        IsBusy = false;
+    }
+    [RelayCommand]
+    internal async Task GoToGraph()
+    {
+        IsBusy = true;
+
+        await Shell.Current.GoToAsync("GraphView", true);
 
         IsBusy = false;
     }

@@ -244,6 +244,9 @@
     <AppxPackagedFile Include="C:\Users\fredv\.nuget\packages\communitytoolkit.mvvm\8.4.0\lib\net8.0-windows10.0.17763\CommunityToolkit.Mvvm.dll">
       <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fredv\.nuget\packages\microcharts.maui\1.0.0\lib\net6.0-windows10.0.19041\Microcharts.Maui.dll">
+      <PackagePath>Microcharts.Maui.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fredv\.nuget\packages\microsoft.extensions.configuration\9.0.0\lib\net9.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
     </AppxPackagedFile>
@@ -345,6 +348,18 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fredv\.nuget\packages\microsoft.windowsappsdk\1.6.250108002\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fredv\.nuget\packages\skiasharp\2.88.3\lib\net6.0\SkiaSharp.dll">
+      <PackagePath>SkiaSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fredv\.nuget\packages\skiasharp.views.maui.controls\2.88.3\lib\net6.0-windows10.0.18362.0\SkiaSharp.Views.Maui.Controls.dll">
+      <PackagePath>SkiaSharp.Views.Maui.Controls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fredv\.nuget\packages\skiasharp.views.maui.core\2.88.3\lib\net6.0-windows10.0.18362.0\SkiaSharp.Views.Maui.Core.dll">
+      <PackagePath>SkiaSharp.Views.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fredv\.nuget\packages\skiasharp.views.winui\2.88.3\lib\net6.0-windows10.0.19041.0\SkiaSharp.Views.Windows.dll">
+      <PackagePath>SkiaSharp.Views.Windows.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fredv\.nuget\packages\system.codedom\10.0.0-preview.1.25080.5\lib\net9.0\System.CodeDom.dll">
       <PackagePath>System.CodeDom.dll</PackagePath>
@@ -468,6 +483,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fredv\.nuget\packages\microsoft.windowsappsdk\1.6.250108002\runtimes\win-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fredv\.nuget\packages\skiasharp.nativeassets.win32\2.88.3\runtimes\win-x64\native\libSkiaSharp.dll">
+      <PackagePath>libSkiaSharp.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fredv\.nuget\packages\microsoft.web.webview2\1.0.2792.45\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>

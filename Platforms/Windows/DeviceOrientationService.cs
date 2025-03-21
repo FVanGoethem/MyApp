@@ -13,49 +13,11 @@ public partial class DeviceOrientationService
     string? portDetected = null;
     public partial void OpenPort()
     {
-        if(mySerialPort != null)
-        {
-            try
-            {
-                if (mySerialPort.IsOpen) mySerialPort.Close();
-                mySerialPort.Dispose();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Erreur lors de la fermeture du port: {ex.Message}");
-            }
-            finally
-            {
-                mySerialPort = null;
-            }
-        }else
-        {
-            ManagementObjectSearcher searcher = new ManagementObjectSearcher("SELECT * FROM Win32_PnPEntity WHERE Name LIKE '%(COM%'");
-
-            foreach (ManagementObject queryObj in searcher.Get())
-            {
-                string id = queryObj["PNPDeviceID"]?.ToString() ?? "";
-                string nom = queryObj["Name"]?.ToString() ?? "";
-
-                if (id.Contains("PID_7523"))
-                {
-                    int debut = nom.LastIndexOf("COM");
-                    int fin = nom.LastIndexOf(")");
-
-                    if (debut != -1 && fin != -1)
-                    {
-                        portDetected = nom.Substring(debut, fin - debut);
-                        break;
-                    }
-                }
-            }
-
-            if(portDetected != null)
-            {
-                mySerialPort = new SerialPort
+        
+            mySerialPort = new SerialPort
                 {
                     BaudRate = 9600,
-                    PortName = portDetected,
+                    PortName = "COM5",
                     Parity = Parity.None,
                     DataBits = 8,
                     StopBits = StopBits.One,
@@ -72,9 +34,7 @@ public partial class DeviceOrientationService
                 catch (Exception ex)
                 {
                     Shell.Current.DisplayAlert("Error!", ex.ToString(), "OK");
-                }
-            }                      
-        }            
+                }    
     }
     public partial void ClosePort()
     {

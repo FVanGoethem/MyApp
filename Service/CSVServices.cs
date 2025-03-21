@@ -48,7 +48,6 @@ public class CSVServices
         }
         return list;
     }
-
     public async Task PrintData<T>(List<T> data)
     {
         var csv = new StringBuilder();

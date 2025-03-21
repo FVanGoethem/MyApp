@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\viewmodel\\graphviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:viewmodel\\graphviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\view\\graphview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:view\\graphview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\viewmodel\\detailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:viewmodel\\detailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\view\\detailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:view\\detailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\platforms\\windows\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:platforms\\windows\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\view\\graphview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:view\\graphview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\view\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:view\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\view\\detailsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:view\\detailsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\view\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:view\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\service\\csvservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:service\\csvservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\service\\jsonservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:service\\jsonservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,40 +67,8 @@
       "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:service\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\service\\csvservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:service\\csvservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\view\\detailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:view\\detailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\platforms\\windows\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:platforms\\windows\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\viewmodel\\detailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:viewmodel\\detailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\view\\detailsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:view\\detailsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\view\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:view\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\view\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:view\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\model\\strangeanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,16 +79,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DE35DE9-3D7E-4C2B-9577-4568822A109E}|MyApp.csproj|c:\\users\\fredv\\desktop\\gitfiles\\myapp\\myapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -131,15 +143,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -163,166 +171,90 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Package.appxmanifest",
-              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Platforms\\Windows\\Package.appxmanifest",
-              "RelativeDocumentMoniker": "Platforms\\Windows\\Package.appxmanifest",
-              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Platforms\\Windows\\Package.appxmanifest",
-              "RelativeToolTip": "Platforms\\Windows\\Package.appxmanifest",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
-              "WhenOpened": "2025-03-12T11:00:06.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CSVServices.cs",
-              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Service\\CSVServices.cs",
-              "RelativeDocumentMoniker": "Service\\CSVServices.cs",
-              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Service\\CSVServices.cs",
-              "RelativeToolTip": "Service\\CSVServices.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAYwDMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T10:01:59.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "GraphView.xaml",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\View\\GraphView.xaml",
+              "RelativeDocumentMoniker": "View\\GraphView.xaml",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\View\\GraphView.xaml",
+              "RelativeToolTip": "View\\GraphView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-20T09:05:20.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GraphView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\View\\GraphView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\GraphView.xaml.cs",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\View\\GraphView.xaml.cs",
+              "RelativeToolTip": "View\\GraphView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T09:05:22.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DeviceOrientationService.cs",
               "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Platforms\\Windows\\DeviceOrientationService.cs",
               "RelativeDocumentMoniker": "Platforms\\Windows\\DeviceOrientationService.cs",
               "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Platforms\\Windows\\DeviceOrientationService.cs",
               "RelativeToolTip": "Platforms\\Windows\\DeviceOrientationService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAgwA8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwCgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T16:37:33.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T16:37:33.724Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "MainView.xaml",
-              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\View\\MainView.xaml",
-              "RelativeDocumentMoniker": "View\\MainView.xaml",
-              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\View\\MainView.xaml",
-              "RelativeToolTip": "View\\MainView.xaml",
-              "ViewState": "AgIAACsAAAAAAAAAAAAIwD4AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-29T19:36:28.196Z"
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T09:20:36.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "GraphViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\ViewModel\\GraphViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\GraphViewModel.cs",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\ViewModel\\GraphViewModel.cs*",
+              "RelativeToolTip": "ViewModel\\GraphViewModel.cs*",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwFUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T19:32:14.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DetailsView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\View\\DetailsView.xaml.cs",
-              "RelativeDocumentMoniker": "View\\DetailsView.xaml.cs",
-              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\View\\DetailsView.xaml.cs",
-              "RelativeToolTip": "View\\DetailsView.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAowBkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T10:51:46.082Z",
+              "WhenOpened": "2025-03-20T09:09:27.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "DetailsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\ViewModel\\DetailsViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\DetailsViewModel.cs",
               "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\ViewModel\\DetailsViewModel.cs",
               "RelativeToolTip": "ViewModel\\DetailsViewModel.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAIwEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T10:51:19.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DeviceOrientationService.cs",
-              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Service\\DeviceOrientationService.cs",
-              "RelativeDocumentMoniker": "Service\\DeviceOrientationService.cs",
-              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Service\\DeviceOrientationService.cs",
-              "RelativeToolTip": "Service\\DeviceOrientationService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:45:43.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JSONServices.cs",
-              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Service\\JSONServices.cs",
-              "RelativeDocumentMoniker": "Service\\JSONServices.cs",
-              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Service\\JSONServices.cs",
-              "RelativeToolTip": "Service\\JSONServices.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwC4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T12:52:09.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\ViewModel\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\ViewModel\\MainViewModel.cs",
-              "RelativeToolTip": "ViewModel\\MainViewModel.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAqwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T09:20:36.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DetailsView.xaml",
-              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\View\\DetailsView.xaml",
-              "RelativeDocumentMoniker": "View\\DetailsView.xaml",
-              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\View\\DetailsView.xaml",
-              "RelativeToolTip": "View\\DetailsView.xaml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Title": "MainView.xaml",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\View\\MainView.xaml",
+              "RelativeDocumentMoniker": "View\\MainView.xaml",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\View\\MainView.xaml",
+              "RelativeToolTip": "View\\MainView.xaml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-05T10:51:05.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\ViewModel\\BaseViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\BaseViewModel.cs",
-              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\ViewModel\\BaseViewModel.cs",
-              "RelativeToolTip": "ViewModel\\BaseViewModel.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAIAwwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T12:42:11.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "StrangeAnimal.cs",
-              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Model\\StrangeAnimal.cs",
-              "RelativeDocumentMoniker": "Model\\StrangeAnimal.cs",
-              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Model\\StrangeAnimal.cs",
-              "RelativeToolTip": "Model\\StrangeAnimal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T10:30:56.066Z"
+              "WhenOpened": "2025-01-29T19:36:28.196Z"
             },
             {
               "$type": "Document",
@@ -338,43 +270,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T19:48:08.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "App.g.i.cs",
-              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeDocumentMoniker": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeToolTip": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAewEQAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T14:58:55.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "DetailsView.xaml",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\View\\DetailsView.xaml",
+              "RelativeDocumentMoniker": "View\\DetailsView.xaml",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\View\\DetailsView.xaml",
+              "RelativeToolTip": "View\\DetailsView.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-29T19:35:16.478Z"
+              "WhenOpened": "2025-02-05T10:51:05.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 7,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "AppShell.xaml.cs",
@@ -386,7 +294,138 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwCEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T19:32:14.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DetailsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\View\\DetailsView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\DetailsView.xaml.cs",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\View\\DetailsView.xaml.cs",
+              "RelativeToolTip": "View\\DetailsView.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T10:51:46.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Package.appxmanifest",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Platforms\\Windows\\Package.appxmanifest",
+              "RelativeDocumentMoniker": "Platforms\\Windows\\Package.appxmanifest",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Platforms\\Windows\\Package.appxmanifest",
+              "RelativeToolTip": "Platforms\\Windows\\Package.appxmanifest",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2025-03-12T11:00:06.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CSVServices.cs",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Service\\CSVServices.cs",
+              "RelativeDocumentMoniker": "Service\\CSVServices.cs",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Service\\CSVServices.cs",
+              "RelativeToolTip": "Service\\CSVServices.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T10:01:59.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "JSONServices.cs",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Service\\JSONServices.cs",
+              "RelativeDocumentMoniker": "Service\\JSONServices.cs",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Service\\JSONServices.cs",
+              "RelativeToolTip": "Service\\JSONServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T12:52:09.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DeviceOrientationService.cs",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Service\\DeviceOrientationService.cs",
+              "RelativeDocumentMoniker": "Service\\DeviceOrientationService.cs",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Service\\DeviceOrientationService.cs",
+              "RelativeToolTip": "Service\\DeviceOrientationService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:45:43.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\ViewModel\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\ViewModel\\BaseViewModel.cs",
+              "RelativeToolTip": "ViewModel\\BaseViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIAwwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T12:42:11.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StrangeAnimal.cs",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Model\\StrangeAnimal.cs",
+              "RelativeDocumentMoniker": "Model\\StrangeAnimal.cs",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Model\\StrangeAnimal.cs",
+              "RelativeToolTip": "Model\\StrangeAnimal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T10:30:56.066Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T19:48:08.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAewEQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T14:58:55.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-29T19:35:16.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "DeviceOrientationService.cs",
               "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Platforms\\Android\\DeviceOrientationService.cs",
               "RelativeDocumentMoniker": "Platforms\\Android\\DeviceOrientationService.cs",
@@ -398,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "DeviceOrientationService.cs",
               "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Platforms\\Tizen\\DeviceOrientationService.cs",
               "RelativeDocumentMoniker": "Platforms\\Tizen\\DeviceOrientationService.cs",
@@ -410,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "MyApp.csproj",
               "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\MyApp.csproj",
               "RelativeDocumentMoniker": "MyApp.csproj",
@@ -422,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "DeviceOrientationService.cs",
               "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Platforms\\MacCatalyst\\DeviceOrientationService.cs",
               "RelativeDocumentMoniker": "Platforms\\MacCatalyst\\DeviceOrientationService.cs",
@@ -434,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "DeviceOrientationService.cs",
               "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Platforms\\iOS\\DeviceOrientationService.cs",
               "RelativeDocumentMoniker": "Platforms\\iOS\\DeviceOrientationService.cs",
@@ -446,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Main.cs",
               "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Platforms\\Tizen\\Main.cs",
               "RelativeDocumentMoniker": "Platforms\\Tizen\\Main.cs",
@@ -458,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "Globals.cs",
               "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\Globals.cs",
               "RelativeDocumentMoniker": "Globals.cs",
@@ -470,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "App.g.i.cs",
               "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
@@ -482,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "MyApp.ViewModel.MainViewModel.g.cs",
               "DocumentMoniker": "C:\\Users\\fredv\\AppData\\Local\\Temp\\VSGeneratedDocuments\\1a013edd-ebcf-93b3-8b36-90366bb7a4ca\\MyApp.ViewModel.MainViewModel.g.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\VSGeneratedDocuments\\1a013edd-ebcf-93b3-8b36-90366bb7a4ca\\MyApp.ViewModel.MainViewModel.g.cs",
@@ -493,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -501,12 +540,11 @@
               "RelativeToolTip": "App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-29T19:48:04.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T19:48:04.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "MyApp.ViewModel.MainViewModel.ChangeBindedLabel.g.cs",
               "DocumentMoniker": "C:\\Users\\fredv\\AppData\\Local\\Temp\\VSGeneratedDocuments\\fb5ae862-f2bc-0d14-892f-0758119631a1\\MyApp.ViewModel.MainViewModel.ChangeBindedLabel.g.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\VSGeneratedDocuments\\fb5ae862-f2bc-0d14-892f-0758119631a1\\MyApp.ViewModel.MainViewModel.ChangeBindedLabel.g.cs",
@@ -517,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "ReadMe.txt",
               "DocumentMoniker": "C:\\Users\\fredv\\.nuget\\packages\\communitytoolkit.maui\\9.1.1\\ReadMe.txt",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\9.1.1\\ReadMe.txt",
@@ -529,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": ".gitattributes",
               "DocumentMoniker": "C:\\Users\\fredv\\Desktop\\GitFiles\\MyApp\\MyApp\\.gitattributes",
               "RelativeDocumentMoniker": ".gitattributes",
