@@ -1,4 +1,5 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+﻿using CommunityToolkit.Maui.Views;
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System;
 using System.Collections.Generic;
@@ -58,6 +59,15 @@ public partial class MainViewModel : BaseViewModel
         IsBusy = true;
 
         Globals.MyStrangeAnimals = await MyCSVServices.LoadData();
+
+        IsBusy = false;
+    }
+    [RelayCommand]
+    internal async Task UploadJSON()
+    {
+        IsBusy = true;
+
+        await MyJSONService.SetStrangeAnimals(Globals.MyStrangeAnimals);
 
         IsBusy = false;
     }

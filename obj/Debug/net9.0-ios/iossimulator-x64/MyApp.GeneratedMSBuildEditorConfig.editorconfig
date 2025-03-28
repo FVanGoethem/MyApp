@@ -64,3 +64,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MyApp.View.MainView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MainView.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MainView.xaml
+
+[C:/Users/fredv/Desktop/GitFiles/MyApp/MyApp/View/SimplePopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyApp.View.SimplePopup.xaml
+build_metadata.AdditionalFiles.TargetPath = View\SimplePopup.xaml
+build_metadata.AdditionalFiles.RelativePath = View\SimplePopup.xaml

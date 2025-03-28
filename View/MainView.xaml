@@ -41,6 +41,20 @@
                             CommandParameter="0"
                             IsEnabled="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=IsNotBusy}">
                 </Button>
+                <Button     Text="Pop"
+                            Grid.Column="0"
+                            HorizontalOptions="Start"
+                            HeightRequest="50"
+                            Clicked="DisplayPopup"
+                            IsEnabled="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=IsNotBusy}">
+                </Button>
+                <Button     Text="Upload JSON"
+                            Grid.Column="0"
+                            HorizontalOptions="Start"
+                            HeightRequest="50"
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=UploadJSONCommand}"
+                            IsEnabled="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=IsNotBusy}">
+                </Button>
             </HorizontalStackLayout>
 
             <CollectionView ItemsSource="{Binding MyObservableList}"

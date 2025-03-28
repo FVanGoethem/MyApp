@@ -38,7 +38,7 @@ public partial class DeviceOrientationService
                 string id = queryObj["PNPDeviceID"]?.ToString() ?? "";
                 string nom = queryObj["Name"]?.ToString() ?? "";
 
-                if (id.Contains("PID_7523"))
+                if (id.Contains("PID_A4A7"))
                 {
                     int debut = nom.LastIndexOf("COM");
                     int fin = nom.LastIndexOf(")");

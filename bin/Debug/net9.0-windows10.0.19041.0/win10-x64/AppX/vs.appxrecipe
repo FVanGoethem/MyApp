@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-21T08:46:19.818</Modified>
+      <Modified>2025-03-27T14:14:40.207</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-03-21T08:35:55.533</Modified>
+      <Modified>2025-03-21T11:57:22.798</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MyApp.runtimeconfig.json">
       <PackagePath>MyApp.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MyApp.dll">
       <PackagePath>MyApp.dll</PackagePath>
-      <Modified>2025-03-21T08:46:18.656</Modified>
+      <Modified>2025-03-27T14:14:39.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MyApp.exe</PackagePath>
-      <Modified>2025-03-21T08:46:18.720</Modified>
+      <Modified>2025-03-27T14:14:39.289</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -659,7 +659,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fredv\Desktop\GitFiles\MyApp\MyApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MyApp.deps.json">
       <PackagePath>MyApp.deps.json</PackagePath>
-      <Modified>2025-03-21T08:35:55.303</Modified>
+      <Modified>2025-03-21T11:57:22.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fredv\.nuget\packages\microsoft.maui.controls.compatibility\9.0.40\lib\net9.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

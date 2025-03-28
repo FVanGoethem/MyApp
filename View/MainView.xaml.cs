@@ -1,3 +1,5 @@
+using CommunityToolkit.Maui.Views;
+
 namespace MyApp.View;
 
 public partial class MainView : ContentPage
@@ -17,4 +19,10 @@ public partial class MainView : ContentPage
 		await viewModel.RefreshPage();    
 		BindingContext = viewModel;
 	}
+    public void DisplayPopup(object? sender, EventArgs e) 
+    {
+        var popup = new SimplePopup();
+
+        this.ShowPopup(popup);
+    }
 }
